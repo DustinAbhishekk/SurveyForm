@@ -1,0 +1,108 @@
+body {
+  background-color: #05c46b;
+  font-family: Verdana;
+}
+h2 {
+  color: white;
+  height: 40px;
+  text-align: center;
+  margin-left: 275px;
+  margin-right: 275px;
+}
+
+.form {
+  background-color: #fff;
+  width: 800px;
+  height: 1000px;
+  margin-left: 275px;
+  margin-right: 275px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.name {
+  display: block;
+  margin-bottom: 25px;
+  width: 95%;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.email {
+  display: block;
+  margin-bottom: 25px;
+  width: 95%;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.age {
+  display: block;
+  margin-bottom: 25px;
+  width: 95%;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.option-level {
+  display: block;
+  margin-bottom: 25px;
+  width: 95%;
+  margin-top: 10px;
+  height: 30px;
+}
+
+.gender {
+  width: auto;
+  display: flex;
+  height: 30px;
+}
+.language {
+  display: block;
+  margin-bottom: 25px;
+  width: 95%;
+  height: 30px;
+}
+
+.submit {
+  display: flex;
+  margin-bottom: 25px;
+  width: 95%;
+}
+.form-control {
+  text-align: left;
+  margin-bottom: 25px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  padding: 10px;
+  display: block;
+  width: 95%;
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+.submit {
+  background-color: #05c46b;
+  border: 1px solid #777;
+  border-radius: 2px;
+  font-family: inherit;
+  font-size: 21px;
+  display: block;
+  width: 97.5%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link href="Survey.css" rel="stylesheet" />
+    <title>SurvayForm</title>
+  </head>
+    <body>
+      <h2>Survey Form Using HTML & CSS</h2>
+        <form class="form">
+            <label for="lname">NAME :</label>
+              <input type="text" placeholder="What your name" class="name" />
+
+            <label for="lemail">EMAIL :</label>
+             <input type="email" placeholder="Enter your gmail" class="email" />
+
+            <label for="lage">AGE :</label>
+             <input type="number"   placeholder="Enter your name" class="age" />
+
+            <label for="ldescribe">Which Option Describe You? </label>
+            <select name=""   class="option-level">
+             <option value="option1">STUDENT</option>
+             <option value="option1">JOB</option>
+             <option value="option1">OTHER</option>
+            </select>
+
+             <label for="lgender"class="gender">What Your GENDER?</label>
+        <div class="form-control">
+             <label for="recomanded-1">
+               <input type="radio" 
+               value="1" name="fooby[2][]"
+              class="checkBox">MALE</input>
+              </label>
+
+              <label for="recomanded-2">
+             <input type="radio"
+              value="1" name="fooby[2][]"
+              class="checkBox">FEMALE</input>
+              </label>
+
+              <label for="recomanded-3">
+             <input type="radio" 
+              value="1" name="fooby[2][]"
+              class="checkBox">OTHER</input>
+              </label>
+        </div>
+
+        <div class="form-control">
+            <label for="lframewofk" class="language">Language and Frameworks know (Check all the apply)</label>
+
+            <label for="inp-1">
+             <input type="checkbox" class="checkBox">C++</input>
+            </label>
+
+            <label for="inp-2">
+             <input type="checkbox" class="checkBox">C#</input>
+            </label>
+
+            <label for="inp-3">
+             <input type="checkbox" class="checkBox">JAVA</input>
+            </label>
+
+            <label for="inp-4">
+             <input type="checkbox" class="checkBox">PYTHON</input>
+            </label>
+
+            <label for="inp-5">
+             <input type="checkbox" class="checkBox">REACT</input>
+            </label>
+
+            <label for="inp-6">
+             <input type="checkbox"  class="checkBox">KOTLIN</input>
+            </label>
+        </div>
+
+
+         <div class="form-control">
+            <label for="comment">
+                Any comments or suggestions
+            </label>
+ 
+           
+            <textarea name="comment" id="comment"
+                      placeholder="Enter your comment here">
+            </textarea>
+        </div>
+
+            <button type="submit" value="submit" class="submit"  >SUBMIT</button>
+        </div>
+    </body>
+</html>
